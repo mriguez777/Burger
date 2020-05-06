@@ -1,6 +1,8 @@
 //Starting mysql connection on this page
 var mysql = require("mysql");
 
+var PORT = process.env.PORT || 8080;
+
 //Connection details
 var connection = mysql.createConnection({
     host: "127.0.0.1",
