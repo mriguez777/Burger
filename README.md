@@ -11,4 +11,13 @@ Welcome to my Burger ordering app!
 Thank you for coming by and Hope that you come again.......now about those missing burgers.
 
 
+Created by Michael Rodriguez
 
+For any issues please see here for contact information:
+https://mriguez777.github.io/Resume-Site/ 
+
+Git Hub Repo: 
+https://github.com/mriguez777/Burger.git
+
+This can also be found on my portfolio: 
+https://mriguez777.github.io/Resume-Site/portfolio.html
