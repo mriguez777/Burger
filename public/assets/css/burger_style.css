@@ -1,7 +1,10 @@
+h1,
+h2 {
+  text-align: center;
+}
+
 li {
-    padding: 5px;
-    margin: 5px;
-    background: #faebd7;
+    text-align: center;
   }
   
   .label {
@@ -16,4 +19,12 @@ li {
   
   .form-group {
     margin-bottom: 5px;
+  }
+
+  .container {
+    text-align: center;
+  }
+
+  #pics {
+    width:50%;
   }

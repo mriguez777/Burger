@@ -13,7 +13,6 @@
                 {{/unless}}
                 {{/each}}
             </ul>
-
         </div>
         <div class="col-md-4">
 
@@ -28,15 +27,15 @@
                 <div class="form-group">
                     <label for="devoured">Has this been eaten?</label><br>
                     <input type="radio" name="devoured" value="1" checked> Already Eaten!<br>
-                    <input type="radio" name="devoured" value="0"> Order this Burger!
+                    <input type="radio" name="devoured" value="0">No, Order this Burger!
                 </div>
 
-                <button type="submit">Order Burger</button>
+                <button type="submit" class="btn btn-primary">Order Burger</button>
             </form>
 
         </div>
         <div class="col-md-4">
-            <h2>Eaten Burgers:</h2>
+            <h2>Served Burgers:</h2>
 
             <ul>
                 {{#each burgers}}
@@ -45,8 +44,13 @@
                 {{/if}}
                 {{/each}}
             </ul>
-
         </div>
 
+    </div>
+    <br>
+    <div class="row">
+        <div class="col-md-12">
+            <img src="/assets/img/hamburgler.jpg" id="pics">
+        </div>
     </div>
 </div>
